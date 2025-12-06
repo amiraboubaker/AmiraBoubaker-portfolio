@@ -15,6 +15,7 @@ import Gemini from "./projects/Gemini.jpg";
 import HealthTracker from "./projects/HealthTracker.jpg";
 import Ktabinet from "./projects/Ktabinet.jpg";
 import MyJungle from "./projects/MyJungle.png";
+import JourneyBuddy from "./projects/start.jpg";
 
 
 import bootstrap from "./tech/bootstrap.svg";
@@ -33,8 +34,5 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 
-export {
-  CuteDog, Ectrh, Gemini, HealthTracker, Ktabinet, MyJungle, backend, bootstrap, close, creator, docker, esprim, figma, firebase, git, github,
-  javascript, logo, menu, mobile, mongodb, mysql, nexans, nodejs, php, reactjs, symfony, tailwind, threejs, typescript, web
-};
+export { backend, bootstrap, close, creator, CuteDog, docker, Ectrh, esprim, figma, firebase, Gemini, git, github, HealthTracker, javascript, JourneyBuddy, Ktabinet, logo, menu, mobile, mongodb, MyJungle, mysql, nexans, nodejs, php, reactjs, symfony, tailwind, threejs, typescript, web };
 

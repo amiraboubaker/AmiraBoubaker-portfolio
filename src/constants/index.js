@@ -11,6 +11,7 @@ import {
   git,
   HealthTracker,
   javascript,
+  JourneyBuddy,
   Ktabinet,
   mobile,
   mongodb,
@@ -117,21 +118,34 @@ const technologies = [
 ];
 
 const experiences = [
-
   {
-      title: "React Native Mobile Developer",
+    title: "React Native Developer",
+    company_name: "Mobelite",
+    icon: esprim,
+    iconBg: "#E6DEDD",
+    date: "01 February 2025 - 31 July 2025",
+    points: [
+      "Built and launched JourneyBuddy, a mobile application supporting AI-assisted and manual trip planning.",
+      "Integrated an interactive map system for destination exploration.",
+      "Implemented an AI-powered chatbot for smart travel recommendations.",
+      "Designed a scalable modular architecture improving performance and reliability.",
+      "Managed full deployment (APK/AAB) ensuring seamless delivery.",
+    ],
+  },
+  {
+      title: "Flutter Mobile Developer",
       company_name: "ECT",
       icon: nexans,
       iconBg: "#E6DEDD",
       date: "1 Juillet 2024 - 30 Juillet 2024",
       points: [
-        "Developing and maintaining mobile applications using React.js and other related technologies.",
+        "Developing and maintaining mobile applications using Flutter and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {title: "ReactJs Web Developer",
+    {title: "ReactJs Developer",
       company_name: "ESPRIM",
       icon: esprim,
       iconBg: "#E6DEDD",
@@ -159,6 +173,31 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "JourneyBuddy",
+    description: "JourneyBuddy is a React Native mobile application 📱 that helps travelers plan their trips efficiently using AI assistance 🤖. Features include AI-powered itinerary planning ✈️, interactive map exploration 🗺️, and smart travel recommendations 💡.",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: JourneyBuddy,
+    source_code_link: "https://github.com/amiraboubaker/Journey-Buddy.git",
+  },
+
   {
     name: "HealthTracker",
     description:"HealthTracker A React Native mobile application 📱 powered by Firebase 🔥. It allows users to: Track their sleep hours 🛌. Monitor their water consumption 💧. Evaluate the quality of their diet 🍎.",
