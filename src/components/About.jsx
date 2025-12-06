@@ -1,14 +1,20 @@
-import React from "react";
-import Tilt from "react-tilt";
 import { motion } from "framer-motion";
+import Tilt from "react-parallax-tilt";
 
-import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt
+    tiltMaxAngleX={10}
+    tiltMaxAngleY={10}
+    perspective={1000}
+    scale={1.02}
+    transitionSpeed={300}
+    className='xs:w-[250px] w-full'
+  >
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
