@@ -13,6 +13,7 @@ import {
   javascript,
   JourneyBuddy,
   Ktabinet,
+  mobelite,
   mobile,
   mongodb,
   MyJungle,
@@ -121,7 +122,7 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "Mobelite",
-    icon: esprim,
+    icon: mobelite,
     iconBg: "#E6DEDD",
     date: "01 February 2025 - 31 July 2025",
     points: [

@@ -1,6 +1,7 @@
 import backend from "./backend.png";
 import close from "./close.svg";
 import esprim from "./company/esprim.png";
+import mobelite from "./company/mobelite.png";
 import nexans from "./company/nexans.png";
 import creator from "./creator.png";
 import github from "./github.png";
@@ -34,5 +35,5 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 
-export { backend, bootstrap, close, creator, CuteDog, docker, Ectrh, esprim, figma, firebase, Gemini, git, github, HealthTracker, javascript, JourneyBuddy, Ktabinet, logo, menu, mobile, mongodb, MyJungle, mysql, nexans, nodejs, php, reactjs, symfony, tailwind, threejs, typescript, web };
+export { backend, bootstrap, close, creator, CuteDog, docker, Ectrh, esprim, figma, firebase, Gemini, git, github, HealthTracker, javascript, JourneyBuddy, Ktabinet, logo, menu, mobelite, mobile, mongodb, MyJungle, mysql, nexans, nodejs, php, reactjs, symfony, tailwind, threejs, typescript, web };
 
